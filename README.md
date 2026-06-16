@@ -2,6 +2,8 @@
 
 A single-file, zero-dependency QR code generator for TiDB, built for **trackable** QR codes on printed material (flyers, ads, posters) and web pages.
 
+**Live:** [mjonss.github.io/tidb-qr-gen](https://mjonss.github.io/tidb-qr-gen/) — runs entirely in your browser, no install.
+
 ## Why
 
 A printed QR code sends no `Referer` header, so without a tag in the URL you can't tell whether a scan came from a flyer, a billboard, or a slide. This tool makes every code carry a unique source ID so you can see in analytics exactly where each scan originated.
